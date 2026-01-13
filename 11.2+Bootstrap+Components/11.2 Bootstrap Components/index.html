@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="./box-seam.svg" height="30px" alt="">Move it</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Post code" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">check</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold text-body-emphasis">Move With Joy</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Welcome to our website, where we are on a mission to provide exceptional moving services to
+        customers in the US. As a
+        startup, we believe that moving doesn't have to be stressful or complicated, and we are passionate about making
+        the
+        process as seamless and enjoyable as possible.
+      </p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Get a Quote</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contact Us</button>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="./moving-van.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+      </div>
+    </div>
+  </div>
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">Why Move With Us?</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./briefcase.svg" alt="briefcase" height="30">
+        </div>
+        <h3 class="fs-2">Professional</h3>
+        <p>Our team of professional movers are trained to prioritize efficiency, organization, and attention to detail.
+          We
+          understand that your possessions are more than just objects - they are a reflection of your life, memories,
+          and
+          experiences. That's why we take extra care to ensure that everything is packed and transported with the utmost
+          care and
+          attention.</p>
+        <a href="#" class="icon-link">
+          Get a quote
+          <img src="./chevron-right.svg" alt="chevron-right">
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./bus-front.svg" alt="bus-front" height="30">
+        </div>
+        <h3 class="fs-2">Countrywide</h3>
+        <p>We offer a range of services to suit your individual needs, whether you're moving locally or across the
+          country. Our
+          team can handle everything from packing and loading to unloading and unpacking, so you can focus on settling
+          into your
+          new home. And with our transparent pricing and no hidden fees, you can trust that you're getting a fair and
+          competitive
+          rate for our services.</p>
+        <a href="#" class="icon-link">
+          Get a quote
+          <img src="./chevron-right.svg" alt="chevron-right">
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./chat-square-heart.svg" alt="chat-square-heart" height="30">
+        </div>
+        <h3 class="fs-2">Personal Touch</h3>
+        <p>At our core, we believe that moving should be an exciting and positive experience, not a stressful one. By
+          providing
+          exceptional moving services in the US, we hope to revolutionize the way people think about moving and provide
+          a better,
+          more personalized experience for our customers. Contact us today to learn more about how we can help you with
+          your next
+          move.</p>
+        <a href="#" class="icon-link">
+          Get a quote
+          <img src="./chevron-right.svg" alt="chevron-right">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./couple.jpg" class="d-block w-100" alt="couple">
+        <div style="position: absolute; top: 8px; left: 8px; z-index: 1000; cursor: pointer; opacity: 1; transition: opacity 200ms; width: 24px; height: 24px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 54"><defs><style>.cls-1{fill:#001e36;}.cls-2{fill:#31a8ff;}</style></defs><title>Add to Photoshop Extension</title><g id="Layer_2" data-name="Layer 2"><g id="Surfaces"><g id="Photo_Surface" data-name="Photo Surface"><g id="Outline_no_shadow" data-name="Outline no shadow"><rect class="cls-1" width="56" height="54" rx="9.91383"></rect></g></g></g><g id="Outlined_Mnemonics_Logos" data-name="Outlined Mnemonics &amp; Logos"><g id="Ps"><path class="cls-2" d="M11.63571,37.7063V14.06323c0-.17236.07422-.259.22217-.259q.59106,0,1.40576-.01856.81372-.0183,1.75781-.03686.94336-.01831,1.99805-.03711,1.05468-.01831,2.09033-.01855a13.90366,13.90366,0,0,1,4.73584.70312,8.22066,8.22066,0,0,1,3.08984,1.887,7.24021,7.24021,0,0,1,1.6836,2.6084,8.66365,8.66365,0,0,1,.51757,2.97852,8.21981,8.21981,0,0,1-1.36914,4.884,7.73031,7.73031,0,0,1-3.6997,2.79346,14.72217,14.72217,0,0,1-5.18018.86963q-.81445,0-1.14648-.01856-.33325-.01832-.999-.01855v7.28906a.2945.2945,0,0,1-.333.333H11.895Q11.6357,38.0022,11.63571,37.7063Zm5.10644-19.46216v7.65894q.48048.03735.8877.03711h1.2207a8.72661,8.72661,0,0,0,2.64551-.36988,3.99058,3.99058,0,0,0,1.88769-1.22119,3.55281,3.55281,0,0,0,.7212-2.36792,3.74033,3.74033,0,0,0-.53662-2.03491A3.45133,3.45133,0,0,0,21.959,18.63281a6.85543,6.85543,0,0,0-2.70117-.46264q-.8877,0-1.57227.01855Q17,18.20777,16.74215,18.24414Z"></path><path class="cls-2" d="M43.53986,24.4231a13.0493,13.0493,0,0,0-2.66564-.77686,11.68613,11.68613,0,0,0-2.57129-.29614,4.79162,4.79162,0,0,0-1.38769.1665,1.2462,1.2462,0,0,0-.72168.46265,1.16569,1.16569,0,0,0-.18457.6289.9824.9824,0,0,0,.22168.59205,2.52063,2.52063,0,0,0,.77734.61059,15.472,15.472,0,0,0,1.62793.7583,16.142,16.142,0,0,1,3.53321,1.6836,5.37415,5.37415,0,0,1,1.813,1.90551,5.07861,5.07861,0,0,1,.53662,2.36792,5.31526,5.31526,0,0,1-.88818,3.05249,5.83656,5.83656,0,0,1-2.57129,2.05347,10.3516,10.3516,0,0,1-4.1626.74023,15.04788,15.04788,0,0,1-3.12646-.29614,11.45955,11.45955,0,0,1-2.49805-.74.47883.47883,0,0,1-.25879-.44409V32.89624a.21749.21749,0,0,1,.09278-.20361.17935.17935,0,0,1,.20312.01855,10.80533,10.80533,0,0,0,2.99756,1.12842,11.7417,11.7417,0,0,0,2.70117.35156,4.15006,4.15006,0,0,0,1.90528-.333,1.04519,1.04519,0,0,0,.61035-.96191,1.22388,1.22388,0,0,0-.55469-.925,9.19418,9.19418,0,0,0-2.25732-1.073,13.60639,13.60639,0,0,1-3.27442-1.665,5.63914,5.63914,0,0,1-1.73877-1.94238,5.09656,5.09656,0,0,1-.53711-2.34961,5.30352,5.30352,0,0,1,.77735-2.7749A5.64634,5.64634,0,0,1,34.344,20.05713a7.6279,7.6279,0,0,1,3.74425-.93447,23.40265,23.40265,0,0,1,3.12.04534,10.64682,10.64682,0,0,1,2.443.81515.3364.3364,0,0,1,.22168.20362,1.01923,1.01923,0,0,1,.0371.27734v3.73706a.24881.24881,0,0,1-.11084.22193A.24266.24266,0,0,1,43.53986,24.4231Z"></path></g></g></g></svg></div></div>
+        <div class="carousel-item">
+          <img src="./dog.jpg" class="d-block w-100" alt="dog">
+        </div>
+        <div class="carousel-item">
+          <img src="./family.jpg" class="d-block w-100" alt="family">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="container">
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+      <div class="col mb-3">
+        <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+        <p class="text-body-secondary">© 2023</p>
+      </div>
+
+      <div class="col mb-3">
+
+      </div>
+
+      <div class="col mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
